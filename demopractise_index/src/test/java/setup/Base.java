@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Base {
 
 	//browser related COde
+	//some of the code modified
 	public static WebDriver openChromeBrowser() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\ftvas\\OneDrive\\Desktop\\selenium practise\\chromedriver_win32 (2)\\chromedriver.exe") ;
 		WebDriver driver=new ChromeDriver();
