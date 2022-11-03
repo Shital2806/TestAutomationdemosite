@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="FirfoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestPackage.VerifyRegisterAndVedioFunctionality">
+        <methods>
+          <include name="createPOMObjects"/>
+          <include name="PersonalInfo"/>
+          <include name="logOutfromApp"/>
+          <include name="launchApplication"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="verifyYoutubeVedioPlay"/>
+          <include name="launchbrowsers"/>
+        </methods>
+      </class> <!-- TestPackage.VerifyRegisterAndVedioFunctionality -->
+      <class name="TestPackage.VerifyPractiseSiteFunctionality">
+        <methods>
+          <include name="clearObjects"/>
+          <include name="AfterClass"/>
+          <include name="verifyKatalontutorial"/>
+          <include name="launchApplication"/>
+          <include name="launchbrowsers"/>
+          <include name="createPOMObjects"/>
+          <include name="logOutfromApp"/>
+        </methods>
+      </class> <!-- TestPackage.VerifyPractiseSiteFunctionality -->
+    </classes>
+  </test> <!-- FirfoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

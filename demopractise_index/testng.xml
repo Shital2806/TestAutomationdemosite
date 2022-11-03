@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" thread-count="2" parallel="classes">
+  <!--<test  name="ChromeTest">
+ <parameter name="browser" value="Chrome"></parameter>
+ <parameter name="url" value="https://demo.automationtesting.in/Register.html"></parameter>
+    <classes>
+      <class name="TestPackage.VerifyRegisterAndVedioFunctionality"/>
+      <class name="TestPackage.VerifyFramesFunctionalityTestNg"/>
+      <class name="TestPackage.VerifyPractiseSiteFunctionality"/>
+    </classes>
+  </test>  -->
+  <test  name="EdgeTest">
+   <parameter name="browser" value="Edge"></parameter>
+  <classes>
+      <class name="TestPackage.VerifyRegisterAndVedioFunctionality"/>
+      <class name="TestPackage.VerifyFramesFunctionalityTestNg"/>
+       <class name="TestPackage.VerifyPractiseSiteFunctionality"/>
+    </classes>
+  </test>  
+ 
+  <test  name="FirfoxTest">
+  <parameter name="browser" value="Firefox"></parameter>
+  <classes>
+      <class name="TestPackage.VerifyRegisterAndVedioFunctionality"/>
+      <class name="TestPackage.VerifyFramesFunctionalityTestNg"/>
+       <class name="TestPackage.VerifyPractiseSiteFunctionality"/>
+    </classes>
+  </test> 
+</suite> 
