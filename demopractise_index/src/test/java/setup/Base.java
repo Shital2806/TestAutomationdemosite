@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base {
 
-	//browser related COde
+	//CODE IS DELETED FROM REPOSITORY
 	//some of the code modified
 	public static WebDriver openChromeBrowser() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\ftvas\\OneDrive\\Desktop\\selenium practise\\chromedriver_win32 (2)\\chromedriver.exe") ;
